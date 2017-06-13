@@ -131,7 +131,7 @@ Run Nodes
 At this point, it is possible to boot some nodes and run them.  They can have pre-existing nodes or discovered nodes.  This will
 use discovered nodes.
 
-First, we start some nodes.  I used my kvm-slave tool that starts KVM on my Digital Rebar Provision network. .e.g. tools/kvm-slave
+First, we start some nodes.  I used my kvm-slave tool that starts KVM on my Digital Rebar Provision network. .e.g.  tools/kvm-slave
 Anything that PXEs and you can three will work.
 
 Once they are discovered, something like this from **drpcli machines list** should appear: 
@@ -176,7 +176,7 @@ boot up, it should be possible to ssh into them from the account the ssh key is 
 
 And that is all for the sshd image.
 
-For Kubernetes, a few more steps are required. In this example, 192.168.124.22 is the master.  We need to SSH into its kubelet
+For Kubernetes, a few more steps are required.  In this example, 192.168.124.22 is the master.  We need to SSH into its kubelet
 container and start kubeadm.  Something like this:
 
   ::
