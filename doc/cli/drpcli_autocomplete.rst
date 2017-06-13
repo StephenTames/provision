@@ -6,7 +6,7 @@ Rocket-Skates CLI Command Bash AutoCompletion File
 Synopsis
 --------
 
-Generate a bash autocomplete file as . Place the generated file in
+Generate a bash autocomplete file as .  Place the generated file in
 /etc/bash\_completion.d or /usr/local/etc/bash\_completion.d.
 
 ::
