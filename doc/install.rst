@@ -106,7 +106,7 @@ The API, File Server, DHCP, and TFTP ports can be configured, but DHCP and TFTP 
 
 If the SSL certificate is not valid, then follow the :ref:`rs_gen_cert` steps.
 
-.. note:: On Darwin, it may be necessary to add a route for broadcast addresses to work.  This can be done with the below command.  The 192.168.100.1 is the IP address of the interface that the messages should be sent through. The install script will provide suggestions.
+.. note:: On Darwin, it may be necessary to add a route for broadcast addresses to work.  This can be done with the below command.  The 192.168.100.1 is the IP address of the interface that the messages should be sent through.  The install script will provide suggestions.
 
   ::
 

@@ -155,7 +155,7 @@ Profile Operations
 Creating a Profile
 ------------------
 
-It might be necessary to create a :ref:`rs_model_profile`. An empty profile can be created by doing the following:
+It might be necessary to create a :ref:`rs_model_profile`.  An empty profile can be created by doing the following:
 
   ::
 
@@ -345,7 +345,7 @@ To use the token in with the CLI, use the -T option.
 Deleting a User
 ---------------
 
-It might be necessary to remove a reset from the system. To remove a user, do the following:
+It might be necessary to remove a reset from the system.  To remove a user, do the following:
 
   ::
 
